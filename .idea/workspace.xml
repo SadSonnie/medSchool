@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8251c88d-88b7-4c82-8d3f-7a57cfc24edc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LxDGfxZNS2ngLTdEYC8wr8AphW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/artem/PycharmProjects/codeteacher-master/src/index/static/Icon&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/index/static/Icon" />
+      <recent name="$PROJECT_DIR$/src/courses/templates/courses/manage/course" />
+      <recent name="$PROJECT_DIR$/src/courses/static/css" />
+      <recent name="$PROJECT_DIR$/src/students/templates" />
+      <recent name="$PROJECT_DIR$/src/students/templates/students/course" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/students/templates/students/course" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8251c88d-88b7-4c82-8d3f-7a57cfc24edc" name="Changes" comment="" />
+      <created>1676803746427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676803746427</updated>
+      <workItem from="1676803748113" duration="171000" />
+      <workItem from="1676803941516" duration="3287000" />
+      <workItem from="1676918182280" duration="5895000" />
+      <workItem from="1677153170894" duration="19547000" />
+      <workItem from="1677354673754" duration="3881000" />
+      <workItem from="1677688602994" duration="6208000" />
+      <workItem from="1677740691073" duration="9699000" />
+      <workItem from="1677830899588" duration="34000" />
+      <workItem from="1677830952590" duration="3804000" />
+      <workItem from="1678124684020" duration="3872000" />
+      <workItem from="1678131087096" duration="166000" />
+      <workItem from="1678131296590" duration="1144000" />
+      <workItem from="1678132456670" duration="21000" />
+      <workItem from="1678132498447" duration="290000" />
+      <workItem from="1678132862563" duration="3513000" />
+      <workItem from="1678193364363" duration="4126000" />
+      <workItem from="1678717636088" duration="621000" />
+      <workItem from="1678722594150" duration="5147000" />
+      <workItem from="1678879767557" duration="7986000" />
+      <workItem from="1678887787791" duration="33314000" />
+      <workItem from="1679057984012" duration="77243000" />
+      <workItem from="1680680343606" duration="13762000" />
+      <workItem from="1681146919062" duration="2140000" />
+      <workItem from="1693931900652" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

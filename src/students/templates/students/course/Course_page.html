@@ -1,0 +1,179 @@
+{% extends "Base007.html" %}
+{% load static %}
+{% block content %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Course_page</title>
+    <link rel="stylesheet" href="{% static "css/Course_page.css" %}" media="screen">
+    <link rel="stylesheet" href="{% static 'index/HurlUI.css' %}">
+    <link rel="stylesheet" href="{% static 'index/style.css' %}">
+{#    <link rel="stylesheet" href="{% static "css/W3.css" %}">#}
+    <meta name="generator" content="Nicepage 5.6.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site2",
+		"logo": "{% static "img/default-logo" %}"
+}</script>
+
+<script src="{% static 'index/viewform.js' %}" defer></script>
+
+
+    {#    STYLESHEET    #}
+
+
+    <style>
+    .w3-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+    .w3-cust,.w3-hover-cust:hover{color:#000!important;background-color:#f3ebcf!important}
+    .w3-border-0{border:0!important}.w3-border{border:1px solid #fff!important}
+    .w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
+    .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
+    .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+    .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+    .w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+    .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+    .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+    .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+    .w3-bar .w3-button{white-space:normal}
+    .w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+    .w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+    .w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+    .w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+    .w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
+    .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:#ccc;color:#000}
+    .w3-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+    .w3-check,.w3-radio{width:24px;height:24px;position:relative;top:6px}
+    .w3-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+    .w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
+    .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
+    .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+    .w3-main,#main{transition:margin-left .4s}
+    .w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+    .w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+    .w3-bar{width:100%;overflow:hidden}.w3-center .w3-bar{display:inline-block;width:auto}
+    .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+    .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
+    .w3-bar .w3-button{white-space:normal}
+    .w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+    .w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+    .w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+    .w3-button:hover{color:#000!important;background-color:#f0e1af!important}
+    </style>
+
+
+{#    STYLESHEET    #}
+
+
+    <div class="w3-sidebar w3-cust w3-border w3-bar-block" style="width:15%">
+  <h3 class="w3-bar-item">Модули</h3>
+        {% for m in object.modules.all %}
+  <a href="{% url "student_course_detail_module" object.id m.id %}" class="w3-bar-item w3-button {% if m == module %} selected {% endif %}">{{ m.order|add:1 }}. {{ m.title }}</a>
+        {% empty %}
+  <a href="#" class="w3-bar-item w3-button">No modules yet</a>
+    {% endfor %}
+</div>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-1b9c">
+      <div class="u-table u-table-responsive u-table-1">
+        <table class="u-table-entity u-table-entity-1">
+          <colgroup>
+            <col width="100%">
+          </colgroup>
+          <tbody class="u-table-body">
+            <tr style="height: 82px;">
+              <td class="u-border-1 u-border-white u-first-column u-table-cell"></td>
+            </tr>
+            <tr style="height: 95px;">
+              <td class="u-border-1 u-border-white u-first-column u-table-cell"></td>
+            </tr>
+            <tr style="height: 95px;">
+              <td class="u-border-1 u-border-white u-first-column u-table-cell"></td>
+            </tr>
+            <tr style="height: 95px;">
+              <td class="u-border-1 u-border-white u-first-column u-table-cell"></td>
+            </tr>
+            <tr style="height: 95px;">
+              <td class="u-border-1 u-border-white u-first-column u-table-cell"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="u-container-style u-group u-white u-group-1">
+        <div class="u-container-layout u-valign-top u-container-layout-1">
+          <div class="u-border-1 u-border-custom-color-6 u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-group-2">
+            <div class="u-container-layout u-container-layout-2">
+              <h4 class="u-custom-font u-font-ubuntu u-text u-text-default u-text-1">Модуль {{ module.order|add:1 }} {{ module.title }}</h4>
+            </div>
+          </div>
+{#          <h1 class="u-custom-font u-font-ubuntu u-text u-text-default u-text-2">{{ module.title }}</h1>#}
+            {% for content in module.contents.all %}
+            {% with item=content.item %}
+            <h1 class="u-custom-font u-font-ubuntu u-text u-text-default u-text-2">{{ item.title }}</h1>
+        {% if item.forms.code not in '' %}
+                    {% url 'submit_form' item.forms.code object.id module.id as var %}
+                <form class="container" method="POST" action="{{var}}" autocomplete="off">
+{#        <span id="bg-color" style="display: none;">{{item.forms.background_color}}</span>#}
+{#        <span id="text-color" style="display: none;">{{item.forms.text_color}}</span>#}
+        {% csrf_token %}
+        <div class="margin-top-bottom box">
+            <div class="form-title-box">
+                <h4 class="form-title txtClr">{{item.forms.title}}</h4>
+                <p class="required-info">* Required</p>
+            </div>
+            <div class="form-description txtClr">{{item.forms.description|linebreaksbr}}</div>
+        </div>
+        {% if item.forms.collect_email %}
+        <div class="margin-top-bottom box question-box">
+            <h4 class="question-title txtClr">Email address: <span class="require-star">*</span></h4>
+            <input type="email" name="email-address" class="short-answer" placeholder="Your email address" required>
+        </div>
+        {% endif %}
+        {% for question in item.forms.questions.all %}
+        <div class="margin-top-bottom box question-box">
+            <h4 class="question-title txtClr">{{question.question}} {% if question.required %}<span class="require-star">*</span>{% endif %}</h4>
+            {% if question.question_type == "short" %}
+                <input type="text" name="{{question.id}}" class="short-answer" placeholder = "Your answer" {% if question.required %} required {% endif %}>
+            {% elif question.question_type == "paragraph" %}
+                <textarea name="{{question.id}}" placeholder="Your answer" class="long-answer textarea-adjust" {% if question.required %} required {% endif %}></textarea>
+            {% elif question.question_type == "multiple choice" %}
+                {% for choice in question.choices.all %}
+                <div class="multiple-choice">
+                    <input type="radio" name="{{question.id}}" id="{{choice.id}}" {% if question.required %} required {% endif %} value="{{choice.id}}">
+                    <label for="{{choice.id}}" class="txtClr">{{choice.choice}}</label>
+                </div>
+                {% endfor %}
+            {% elif question.question_type == "checkbox" %}
+            {% for choice in question.choices.all %}
+                <div class="multiple-choice">
+                    <input type="checkbox" name="{{question.id}}" id="{{choice.id}}" {% if question.required %} required {% endif %} value="{{choice.id}}">
+                    <label for="{{choice.id}}" class="txtClr">{{choice.choice}}</label>
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+        {% endfor %}
+        <div class="margin-top-bottom">
+            <input type="submit" value="Отправить" class="btn btn-submit">
+        </div>
+    </form>
+{#    {% if user == item.forms.creator %}#}
+{#        <a href="{% url 'edit_form' item.forms.code %}">#}
+{#            <img src="{% static 'Icon/question.png' %}" alt="Edit Question" title="Edit this form" class="edit-form-link">#}
+{#        </a>#}
+{#    {% endif %}#}
+                {% else %}
+          <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-3">
+              {{ item.render }}</p>
+                {% endif %}
+            {% endwith %}
+            {% endfor %}
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
